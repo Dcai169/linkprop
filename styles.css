@@ -22,11 +22,14 @@
 #name {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 250%;
+    font-weight: 700;
 }
 
 #pronouns {
     margin: 0;
     color: #aaa;
+    font-weight: 400;
 }
 
 #link-container {
@@ -55,16 +58,21 @@
 
 .outbound-link {
     text-align: center;
+    font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    color: white;
+html {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 body {
     background-color: #202020;
     display: grid;
     place-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
 }
 
 a {
