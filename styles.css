@@ -1,0 +1,67 @@
+@media (orientation: portrait) {
+    #name-container {
+        width: 100%;
+    }
+}
+
+#profile-picture {
+    width: 12%;
+    border-radius: 50%;
+}
+
+#name-container {
+    display: grid;
+    place-items: center;
+}
+
+#name {
+    margin-bottom: 0;
+}
+
+#pronouns {
+    margin: 0;
+    color: #aaa;
+}
+
+#link-container {
+    display: grid;
+    place-items: center;
+}
+
+#link-list {
+    display: grid;
+    padding-left: 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    width: 120%
+}
+
+.link-block {
+    list-style-type: none;
+    padding: 2%;
+    border-radius: 15%;
+    transition: background-color 0.2s;
+}
+
+.link-block:hover {
+    background-color: #a1290b;
+}
+
+.outbound-link {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+body {
+    background-color: #202020;
+    display: grid;
+    place-items: center;
+    margin: 1%
+}
+
+a {
+    text-decoration: none;
+}
