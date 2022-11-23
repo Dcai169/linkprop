@@ -1,4 +1,4 @@
-@media handheld and (orientation: portrait) {
+@media (orientation: portrait) {
     html {
         font-size: 300%;
     }
